@@ -212,12 +212,7 @@ export default function Topicon() {
   const handleDrawerClose = () => {
     setOpen(false);
   };
-  function opens() {
-    document.getElementsByClassName('hide')[0].style.display = 'block'
-    // document.getElementsByClassName('hide')[0].style.position = 'fixed'
-    // document.getElementsByClassName('hide')[0].style.filter = 'blur(0px)'
-    // document.getElementsByCl assName('h-screen')[0].style.filter = 'blur(1px)'
-  }
+  
   return (
     <Box sx={{ display: 'flex' }}>
       <CssBaseline />

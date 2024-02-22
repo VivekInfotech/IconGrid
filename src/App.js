@@ -14,6 +14,7 @@ import {
   Route,
   Link
 } from "react-router-dom";
+import Topanimatedicon from './components/pages/Topanimatedicon';
 
 function App() {
   return (
@@ -42,7 +43,9 @@ function App() {
           <Route path="/pack">
             <Pack />
           </Route>
-          
+          <Route path="/Topanimatedicon">
+            <Topanimatedicon />
+          </Route>
         </Switch>
       <Footer />
       </Router>

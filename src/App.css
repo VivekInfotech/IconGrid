@@ -353,11 +353,12 @@
     display: flex;
     gap: 10px;
 }
-
+.W-100{
+    width: 100%;
+}
 .card1 {
     background-color: #fff;
-    height: 100px;
-    width: 100px;
+    width: 16.67%;
     flex: 1;
     border-radius: 16px;
     transition: all 0.3s ease;
@@ -367,7 +368,6 @@
     flex-direction: column;
     font-weight: 500;
 }
-
 .card1:hover {
     flex: 2;
     background-color: #b8b8b8;
@@ -381,7 +381,7 @@
 }
 
 .card3 {
-    width: 220px;
+   
     overflow: hidden;
     display: flex;
     flex-direction: column;

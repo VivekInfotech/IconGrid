@@ -23,7 +23,7 @@ function Icons() {
     <Box sx={{ paddingBottom: '150px' }}>
       <Grid container paddingTop={'18px'}>
         <Grid xs={12} >
-          <Box className="background" sx={{ backgroundColor: '#00000021', position: 'relative', alignItems: 'center', display: 'flex' }}>
+          <Box className="background" sx={{flexWrap:{xs:'wrap',md:'nowrap'},backgroundColor: '#00000021', position: 'relative', alignItems: 'center', display: 'flex' }}>
             <Grid xs={6} sx={{ padding: '20px' }}>
 
               <Box sx={{ fontSize: '32px', fontWeight: '700', padding: '50px 0px 0px 20px', color: '#272727' }}>
@@ -51,10 +51,10 @@ function Icons() {
       </Grid>
 
       <Box sx={{ padding: '50px 20px 0px 20px' }}>
-        <Box sx={{ fontSize: '72px', textTransform: 'uppercase', fontWeight: '800', color: 'rgb(255 188 6 / 47%)', textAlign: 'center' }}>
+        <Box sx={{fontSize:{xs:'23px',sm:'50px',md:'72px'}, textTransform: 'uppercase', fontWeight: '800', color: 'rgb(255 188 6 / 47%)', textAlign: 'center' }}>
           Premium
         </Box>
-        <Box sx={{ fontSize: '48px', textTransform: 'uppercase', fontWeight: '600', marginTop: '-60px', color: '#272727', textAlign: 'center' }}>
+        <Box sx={{fontSize:{xs:'22px',sm:'50px',md:'72px'}, marginTop:{ xs:'-23px',sm:'-48px',md:'-65px'}, textTransform: 'uppercase', fontWeight: '600', color: '#272727', textAlign: 'center' }}>
           Icon Packs
         </Box>
         <Grid container sx={{ paddingTop: '50px' }}>
@@ -139,10 +139,10 @@ function Icons() {
       </Box>
 
       <Box sx={{ padding: '50px 20px 50px 20px' }}>
-        <Box sx={{ fontSize: '72px', textTransform: 'uppercase', fontWeight: '800', color: 'rgb(255 188 6 / 47%)', textAlign: 'center' }}>
+        <Box sx={{ fontSize:{xs:'22px',sm:'50px',md:'72px'}, textTransform: 'uppercase', fontWeight: '800', color: 'rgb(255 188 6 / 47%)', textAlign: 'center' }}>
           Poular
         </Box>
-        <Box sx={{ fontSize: '48px', textTransform: 'uppercase', fontWeight: '600', marginTop: '-60px', color: '#272727', textAlign: 'center' }}>
+        <Box sx={{ fontSize:{xs:'22px',sm:'50px',md:'72px'}, marginTop:{ xs:'-23px',sm:'-48px',md:'-65px'}, textTransform: 'uppercase', fontWeight: '600', color: '#272727', textAlign: 'center' }}>
           Icon Styles
         </Box>
       </Box>
@@ -207,21 +207,21 @@ function Icons() {
       </Box>
 
       <Box sx={{ padding: '70px 30px' }}>
-        <div class="container">
-          <div class="card1"><img src={insta} alt="" srcset="" />Instagram</div>
-          <div class="card1"><img src={google} alt="" srcset="" />Google</div>
-          <div class="card1"><img src={facebook} alt="" srcset="" />Facebook</div>
-          <div class="card1"><img src={youtube} alt="" srcset="" />Youtube</div>
-          <div class="card1"><img src={whatsapp} alt="" srcset="" />WhatsApp</div>
-          <div class="card1"><img src={linkdin} alt="" srcset="" />Linkdin</div>
-        </div>
+        <Box class="container w-100">
+          <Box class="card1"><img src={insta} alt="" srcset="" />Instagram</Box>
+          <Box class="card1"><img src={google} alt="" srcset="" />Google</Box>
+          <Box class="card1"><img src={facebook} alt="" srcset="" />Facebook</Box>
+          <Box class="card1"><img src={youtube} alt="" srcset="" />Youtube</Box>
+          <Box class="card1"><img src={whatsapp} alt="" srcset="" />WhatsApp</Box>
+          <Box class="card1"><img src={linkdin} alt="" srcset="" />Linkdin</Box>
+        </Box>
       </Box>
 
       <Box sx={{ padding: '0px 20px 50px 20px' }}>
-        <Box sx={{ fontSize: '72px', textTransform: 'uppercase', fontWeight: '800', color: 'rgb(255 188 6 / 47%)', textAlign: 'center' }}>
+        <Box sx={{ fontSize:{xs:'22px',sm:'50px',md:'72px'}, textTransform: 'uppercase', fontWeight: '800', color: 'rgb(255 188 6 / 47%)', textAlign: 'center' }}>
           Top Icon
         </Box>
-        <Box sx={{ fontSize: '48px', textTransform: 'uppercase', fontWeight: '600', marginTop: '-60px', color: '#272727', textAlign: 'center' }}>
+        <Box sx={{fontSize:{xs:'22px',sm:'50px',md:'72px'}, marginTop:{ xs:'-23px',sm:'-48px',md:'-65px'}, textTransform: 'uppercase', fontWeight: '600', color: '#272727', textAlign: 'center' }}>
           Search
         </Box>
       </Box>
@@ -229,98 +229,98 @@ function Icons() {
       <Box>
         <Container maxWidth="lg">
           <Grid container>
-            <Grid className='center' xs={2}>
+            <Grid className='center' lg={2} md={4} xs={6}>
               Education
             </Grid>
-            <Grid className='center' xs={2}>
+            <Grid className='center' lg={2} md={4} xs={6}>
               User
             </Grid>
-            <Grid className='center' xs={2}>
+            <Grid className='center' lg={2} md={4} xs={6}>
               Technology
             </Grid>
-            <Grid className='center' xs={2}>
+            <Grid className='center' lg={2} md={4} xs={6}>
               People
             </Grid>
-            <Grid className='center' xs={2}>
+            <Grid className='center' lg={2} md={4} xs={6}>
               Business
             </Grid>
-            <Grid className='center' xs={2}>
+            <Grid className='center' lg={2} md={4} xs={6}>
               Food
             </Grid>
           </Grid>
           <Grid container justifyContent={'center'} paddingTop={'30px'}>
-            <Grid className='center' xs={2}>
+            <Grid className='center' lg={2} md={4} xs={6}>
               Security
             </Grid>
-            <Grid className='center' xs={2}>
+            <Grid className='center' lg={2} md={4} xs={6}>
               Money
             </Grid>
-            <Grid className='center' xs={2}>
+            <Grid className='center' lg={2} md={4} xs={6}>
               Computer
             </Grid>
-            <Grid className='center' xs={2}>
+            <Grid className='center' lg={2} md={4} xs={6}>
               Marketing
             </Grid>
-            <Grid className='center' xs={2}>
+            <Grid className='center' lg={2} md={4} xs={6}>
               Document
             </Grid>
 
           </Grid>
           <Grid container paddingTop={'30px'}>
-            <Grid className='center' xs={2}>
+            <Grid className='center' lg={2} md={4} xs={6}>
               Man
             </Grid>
-            <Grid className='center' xs={2}>
+            <Grid className='center' lg={2} md={4} xs={6}>
               Travel
             </Grid>
-            <Grid className='center' xs={2}>
+            <Grid className='center' lg={2} md={4} xs={6}>
               Heart
             </Grid>
-            <Grid className='center' xs={2}>
+            <Grid className='center' lg={2} md={4} xs={6}>
               Message
             </Grid>
-            <Grid className='center' xs={2}>
+            <Grid className='center' lg={2} md={4} xs={6}>
               Building
             </Grid>
-            <Grid className='center' xs={2}>
+            <Grid className='center' lg={2} md={4} xs={6}>
               Time
             </Grid>
           </Grid>
           <Grid container justifyContent={'center'} paddingTop={'30px'}>
-            <Grid className='center' xs={2}>
+            <Grid className='center' lg={2} md={4} xs={6}>
               Arrow
             </Grid>
-            <Grid className='center' xs={2}>
+            <Grid className='center' lg={2} md={4} xs={6}>
               Calendar
             </Grid>
-            <Grid className='center' xs={2}>
+            <Grid className='center' lg={2} md={4} xs={6}>
               Hand
             </Grid>
-            <Grid className='center' xs={2}>
+            <Grid className='center' lg={2} md={4} xs={6}>
               Finance
             </Grid>
-            <Grid className='center' xs={2}>
+            <Grid className='center' lg={2} md={4} xs={6}>
               Home
             </Grid>
 
           </Grid>
           <Grid container paddingTop={'30px'}>
-            <Grid className='center' xs={2}>
+            <Grid className='center' lg={2} md={4} xs={6}>
               House
             </Grid>
-            <Grid className='center' xs={2}>
+            <Grid className='center' lg={2} md={4} xs={6}>
               Music
             </Grid>
-            <Grid className='center' xs={2}>
+            <Grid className='center' lg={2} md={4} xs={6}>
               Chat
             </Grid>
-            <Grid className='center' xs={2}>
+            <Grid className='center' lg={2} md={4} xs={6}>
               Location
             </Grid>
-            <Grid className='center' xs={2}>
+            <Grid className='center' lg={2} md={4} xs={6}>
               Data
             </Grid>
-            <Grid className='center' xs={2}>
+            <Grid className='center' lg={2} md={4} xs={6}>
               Cloud
             </Grid>
           </Grid>
