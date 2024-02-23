@@ -6,7 +6,7 @@ import Grid from '@mui/material/Grid';
 function Topprops(props) {
 
     return (
-        <Box className='iconss' >
+        <Box className='iconss' onClick={props.onClick} >
             <Box sx={{ display: 'flex', justifyContent: 'center', padding: '30px' }}>
                 <Grid sx={{ display: 'flex', width: '100px', flexDirection: 'column', alignItems: 'center' }}>
                     <img src={props.image} alt="" />

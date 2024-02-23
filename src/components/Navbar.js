@@ -12,18 +12,13 @@ import Button from '@mui/material/Button';
 import Tooltip from '@mui/material/Tooltip';
 import MenuItem from '@mui/material/MenuItem';
 import AdbIcon from '@mui/icons-material/Adb';
-import Badge from '@mui/material/Badge';
-import Authors from './pages/Authors';
-import NotificationsIcon from '@mui/icons-material/Notifications';
+
 import { Link, Route, Switch, useHistory } from 'react-router-dom';
-// const pages = ['Products', 'Pricing', 'Blog'];
-// const settings = ['Profile', 'Account', 'Dashboard', 'Logout'];
 
 const pages = [
     { name: 'Home', path: '/' },
     { name: 'Authors', path: '/authors' },
     { name: 'Icons', path: '/icons' },
-
     { name: 'Interface icons', path: '/interface-icons' },
     { name: 'Animated icons', path: '/animated-icons' },
 ];

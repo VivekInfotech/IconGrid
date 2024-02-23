@@ -8,19 +8,15 @@ import { styled, alpha } from '@mui/material/styles';
 import Toolbar from '@mui/material/Toolbar';
 import Typography from '@mui/material/Typography';
 import InputBase from '@mui/material/InputBase';
-import SearchIcon from '@mui/icons-material/Search';
 import CountUp from 'react-countup';
-import Card from '@mui/material/Card';
 import CardActions from '@mui/material/CardActions';
-import CardContent from '@mui/material/CardContent';
 import Button from '@mui/material/Button';
-import { Block } from '@mui/icons-material';
 import { FaSearch, FaRegSmile } from "react-icons/fa";
-// import { Link } from '@mui/material';
 import { Link, useHistory } from 'react-router-dom';
 import iconlogo from './img/Vector.png'
 import interfaceicon from './img/interfaceicon.png'
 import animatedicon from './img/animated.png'
+import camera from './img/cameraanimation.gif'
 import {
     BrowserRouter as Router,
     Switch,
@@ -42,16 +38,6 @@ const Search = styled('div')(({ theme }) => ({
         marginLeft: theme.spacing(3),
         width: 'auto',
     },
-}));
-
-const SearchIconWrapper = styled('div')(({ theme }) => ({
-    padding: theme.spacing(0, 2),
-    height: '100%',
-    position: 'absolute',
-    pointerEvents: 'none',
-    display: 'flex',
-    alignItems: 'center',
-    justifyContent: 'center',
 }));
 
 const StyledInputBase = styled(InputBase)(({ theme }) => ({
@@ -91,48 +77,11 @@ const card3 = (
 
 
 
-
-function Item({ children }) {
-    return (
-        <Paper>
-            {children}
-        </Paper>
-    );
-}
-
 function Mainbody() {
-    const [anchorEl, setAnchorEl] = React.useState(null);
-    const [mobileMoreAnchorEl, setMobileMoreAnchorEl] = React.useState(null);
-
-    const isMenuOpen = Boolean(anchorEl);
-    const isMobileMenuOpen = Boolean(mobileMoreAnchorEl);
-
-    const handleProfileMenuOpen = (event) => {
-        setAnchorEl(event.currentTarget);
-    };
-
-    const handleMobileMenuClose = () => {
-        setMobileMoreAnchorEl(null);
-    };
-
-    const handleMenuClose = () => {
-        setAnchorEl(null);
-        handleMobileMenuClose();
-    };
-
-    const handleMobileMenuOpen = (event) => {
-        setMobileMoreAnchorEl(event.currentTarget);
-    };
-
-    const menuId = 'primary-search-account-menu';
-    // background: rgb(34,122,20);
-
-
-    const mobileMenuId = 'primary-search-account-menu-mobile';
 
     return (
         <>
-            <Box sx={{ width: '100%' ,paddingTop:'55px' }}>
+            <Box sx={{ width: '100%', paddingTop: '55px' }}>
                 <Box className="home-hero" sx={{ backgroundColor: "#ffffff", paddingTop: '55px', height: '650px', width: '100%', zIndex: 9 }}>
 
                     <Container maxWidth="xl">
@@ -349,7 +298,42 @@ function Mainbody() {
                     </Container>
                 </Box>
 
+                <Box sx={{ marginTop: '70px' }}>
+                    <Container maxWidth="xl" sx={{ backgroundColor: '#CDBBFF' }}>
+                        <Grid container xs={12}>
 
+                            <Grid flexDirection={'column'} position={'relative'} xs={6}>
+                                    <Box className='center' sx={{ alignItems: 'center',color:'#703DFF', flexDirection: 'column', fontSize: '70px', paddingTop: '55px', fontWeight: '700', fontFamily: "Rammetto One, sans-serif" }}>
+                                        Animated
+                                    </Box>
+                                <Box sx={{marginTop:'-37px'}}>
+                                <Box className='center' sx={{ alignItems: 'center', fontWeight: '700', fontFamily: "Rammetto One, sans-serif" }}>
+                                        
+                                        <img width={'290px'} src={camera} alt="" srcset="" />
+                                    </Box>
+                                    <Box className='center' sx={{
+                                        marginTop: '-282px',
+                                        marginLeft: '65px',
+                                        alignItems: 'center', color: '#fff', fontSize: '171px', fontFamily: "Rammetto One, sans-serif"
+                                    }}>
+                                        Ic&nbsp;&nbsp;&nbsp;ns
+                                    </Box>
+                                </Box>
+                            </Grid>
+                            <Grid xs={6} padding={'60px'} sx={{display:'felx',flexDirection:'column',alignItems:'center'}}>
+                                <Box sx={{paddingTop:'30px'}}>
+                                We provide you animated icons through which you can bring your website to life and make it animated. animations plays a vital role in your web page as it can directly enhance the user experience and change their perception of visualizing your brand.        
+                                </Box>
+                                <Box sx={{paddingTop:'20px'}}>
+                                Explore different categories of animated icons with unique creativity to unlock more productivity.  
+                                </Box>
+                                <Box sx={{paddingTop:'60px' }}>
+                                    <Box sx={{borderRadius:'7px',display:'inline-block' , padding:'5px 20px',color:'#fff' ,backgroundColor:'#703DFF'}}>More..!</Box>
+                                </Box>
+                            </Grid>
+                        </Grid>
+                    </Container>
+                </Box>
             </Box >
 
         </>

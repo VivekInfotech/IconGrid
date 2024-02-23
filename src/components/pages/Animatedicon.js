@@ -3,7 +3,6 @@ import React from 'react'
 import { FaAccusoft, FaAmbulance, FaImage } from "react-icons/fa";
 import { BsFiletypeSvg } from "react-icons/bs";
 import { Link } from 'react-router-dom';
-
 import banner from './brands/animatedbanner.png'
 function Animatedicon() {
   return (
@@ -28,139 +27,68 @@ function Animatedicon() {
 
               </Box>
             </Grid>
-            <Grid xs={5} sx={{ display: 'flex', alignItems: 'c' }}>
-
-
-
+            <Grid xs={5} sx={{ display: 'flex', alignItems: 'center' }}>
             </Grid>
           </Box>
         </Grid>
         <Grid container paddingTop={'45px'} xs={12} className='center'>
-          <Grid xs={1} sx={{ padding: '15px' }}  >
+          <Grid xs={6} sm={4} md={2} lg={1} sx={{ padding: '15px' }}  >
             <Box className="card4" id="card4">
               <Box className="content4">
                 <FaAccusoft fontSize={'60px'} />
               </Box>
             </Box>
           </Grid>
-          <Grid xs={1} sx={{ padding: '15px' }}>
+          <Grid xs={6} sm={4} md={2} lg={1} sx={{ padding: '15px' }}>
             <Box className="card4" id="card4">
               <Box className="content4">
                 <FaAmbulance fontSize={'60px'} />
               </Box>
             </Box>
           </Grid>
-          <Grid xs={1} sx={{ padding: '15px' }}>
+          <Grid xs={6} sm={4} md={2} lg={1} sx={{ padding: '15px' }}>
             <Box className="card4" id="card4">
               <Box className="content4">
               </Box>
             </Box>
           </Grid>
-          <Grid xs={1} sx={{ padding: '15px' }}>
+          <Grid xs={6} sm={4} md={2} lg={1} sx={{ padding: '15px' }}>
             <Box className="card4" id="card4">
               <Box className="content4">
               </Box>
             </Box>
           </Grid>
-          <Grid xs={1} sx={{ padding: '15px' }}>
+          <Grid xs={6} sm={4} md={2} lg={1} sx={{ padding: '15px' }}>
             <Box className="card4" id="card4">
               <Box className="content4">
               </Box>
             </Box>
           </Grid>
-          <Grid xs={1} sx={{ padding: '15px' }}>
+          <Grid xs={6} sm={4} md={2} lg={1} sx={{ padding: '15px' }}>
             <Box className="card4" id="card4">
               <Box className="content4">
               </Box>
             </Box>
           </Grid>
-          <Grid xs={1} sx={{ padding: '15px' }}>
+          <Grid xs={6} sm={4} md={2} lg={1} sx={{ padding: '15px' }}>
             <Box className="card4" id="card4">
               <Box className="content4">
               </Box>
             </Box>
           </Grid>
-          <Grid xs={1} sx={{ padding: '15px' }}>
+          <Grid xs={6} sm={4} md={2} lg={1} sx={{ padding: '15px' }}>
             <Box className="card4" id="card4">
               <Box className="content4">
               </Box>
             </Box>
           </Grid>
-          <Grid xs={1} sx={{ padding: '15px' }}>
+          <Grid xs={6} sm={4} md={2} lg={1} sx={{ padding: '15px' }}>
             <Box className="card4" id="card4">
               <Box className="content4">
               </Box>
             </Box>
           </Grid>
-          <Grid xs={1} sx={{ padding: '15px' }}>
-            <Box className="card4" id="card4">
-              <Box className="content4">
-              </Box>
-            </Box>
-          </Grid>
-        </Grid>
-        <Grid container xs={12} className='center'>
-          <Grid xs={1} sx={{ padding: '15px' }}  >
-            <Box className="card4" id="card4">
-              <Box className="content4">
-              </Box>
-            </Box>
-          </Grid>
-          <Grid xs={1} sx={{ padding: '15px' }}  >
-            <Box className="card4" id="card4">
-              <Box className="content4">
-              </Box>
-            </Box>
-          </Grid>
-          <Grid xs={1} sx={{ padding: '15px' }}>
-            <Box className="card4" id="card4">
-              <Box className="content4">
-              </Box>
-            </Box>
-          </Grid>
-          <Grid xs={1} sx={{ padding: '15px' }}>
-            <Box className="card4" id="card4">
-              <Box className="content4">
-              </Box>
-            </Box>
-          </Grid>
-          <Grid xs={1} sx={{ padding: '15px' }}>
-            <Box className="card4" id="card4">
-              <Box className="content4">
-              </Box>
-            </Box>
-          </Grid>
-          <Grid xs={1} sx={{ padding: '15px' }}>
-            <Box className="card4" id="card4">
-              <Box className="content4">
-              </Box>
-            </Box>
-          </Grid>
-          <Grid xs={1} sx={{ padding: '15px' }}>
-            <Box className="card4" id="card4">
-              <Box className="content4">
-              </Box>
-            </Box>
-          </Grid>
-          <Grid xs={1} sx={{ padding: '15px' }}>
-            <Box className="card4" id="card4">
-              <Box className="content4">
-              </Box>
-            </Box>
-          </Grid>
-          <Grid xs={1} sx={{ padding: '15px' }}>
-            <Box className="card4" id="card4">
-              <Box className="content4">
-              </Box>
-            </Box>
-          </Grid>
-          <Grid xs={1} sx={{ padding: '15px' }}>
-            <Box className="card4" id="card4">
-              <Box className="content4">
-              </Box>
-            </Box>
-          </Grid>
-          <Grid xs={1} sx={{ padding: '15px' }}>
+          <Grid xs={6} sm={4} md={2} lg={1} sx={{ padding: '15px' }}>
             <Box className="card4" id="card4">
               <Box className="content4">
               </Box>
@@ -168,61 +96,129 @@ function Animatedicon() {
           </Grid>
         </Grid>
         <Grid container xs={12} className='center'>
-          <Grid xs={1} sx={{ padding: '15px' }}  >
+          <Grid xs={6} sm={4} md={2} lg={1} sx={{ padding: '15px' }}  >
             <Box className="card4" id="card4">
               <Box className="content4">
               </Box>
             </Box>
           </Grid>
-          <Grid xs={1} sx={{ padding: '15px' }}>
+          <Grid xs={6} sm={4} md={2} lg={1} sx={{ padding: '15px' }}  >
             <Box className="card4" id="card4">
               <Box className="content4">
               </Box>
             </Box>
           </Grid>
-          <Grid xs={1} sx={{ padding: '15px' }}>
+          <Grid xs={6} sm={4} md={2} lg={1} sx={{ padding: '15px' }}>
             <Box className="card4" id="card4">
               <Box className="content4">
               </Box>
             </Box>
           </Grid>
-          <Grid xs={1} sx={{ padding: '15px' }}>
+          <Grid xs={6} sm={4} md={2} lg={1} sx={{ padding: '15px' }}>
             <Box className="card4" id="card4">
               <Box className="content4">
               </Box>
             </Box>
           </Grid>
-          <Grid xs={1} sx={{ padding: '15px' }}>
+          <Grid xs={6} sm={4} md={2} lg={1} sx={{ padding: '15px' }}>
             <Box className="card4" id="card4">
               <Box className="content4">
               </Box>
             </Box>
           </Grid>
-          <Grid xs={1} sx={{ padding: '15px' }}>
+          <Grid xs={6} sm={4} md={2} lg={1} sx={{ padding: '15px' }}>
             <Box className="card4" id="card4">
               <Box className="content4">
               </Box>
             </Box>
           </Grid>
-          <Grid xs={1} sx={{ padding: '15px' }}>
+          <Grid xs={6} sm={4} md={2} lg={1} sx={{ padding: '15px' }}>
             <Box className="card4" id="card4">
               <Box className="content4">
               </Box>
             </Box>
           </Grid>
-          <Grid xs={1} sx={{ padding: '15px' }}>
+          <Grid xs={6} sm={4} md={2} lg={1} sx={{ padding: '15px' }}>
             <Box className="card4" id="card4">
               <Box className="content4">
               </Box>
             </Box>
           </Grid>
-          <Grid xs={1} sx={{ padding: '15px' }}>
+          <Grid xs={6} sm={4} md={2} lg={1} sx={{ padding: '15px' }}>
             <Box className="card4" id="card4">
               <Box className="content4">
               </Box>
             </Box>
           </Grid>
-          <Grid xs={1} sx={{ padding: '15px' }}>
+          <Grid xs={6} sm={4} md={2} lg={1} sx={{ padding: '15px' }}>
+            <Box className="card4" id="card4">
+              <Box className="content4">
+              </Box>
+            </Box>
+          </Grid>
+          <Grid xs={6} sm={4} md={2} lg={1} sx={{ padding: '15px' }}>
+            <Box className="card4" id="card4">
+              <Box className="content4">
+              </Box>
+            </Box>
+          </Grid>
+        </Grid>
+        <Grid container xs={12} className='center'>
+          <Grid xs={6} sm={4} md={2} lg={1} sx={{ padding: '15px' }}  >
+            <Box className="card4" id="card4">
+              <Box className="content4">
+              </Box>
+            </Box>
+          </Grid>
+          <Grid xs={6} sm={4} md={2} lg={1} sx={{ padding: '15px' }}>
+            <Box className="card4" id="card4">
+              <Box className="content4">
+              </Box>
+            </Box>
+          </Grid>
+          <Grid xs={6} sm={4} md={2} lg={1} sx={{ padding: '15px' }}>
+            <Box className="card4" id="card4">
+              <Box className="content4">
+              </Box>
+            </Box>
+          </Grid>
+          <Grid xs={6} sm={4} md={2} lg={1} sx={{ padding: '15px' }}>
+            <Box className="card4" id="card4">
+              <Box className="content4">
+              </Box>
+            </Box>
+          </Grid>
+          <Grid xs={6} sm={4} md={2} lg={1} sx={{ padding: '15px' }}>
+            <Box className="card4" id="card4">
+              <Box className="content4">
+              </Box>
+            </Box>
+          </Grid>
+          <Grid xs={6} sm={4} md={2} lg={1} sx={{ padding: '15px' }}>
+            <Box className="card4" id="card4">
+              <Box className="content4">
+              </Box>
+            </Box>
+          </Grid>
+          <Grid xs={6} sm={4} md={2} lg={1} sx={{ padding: '15px' }}>
+            <Box className="card4" id="card4">
+              <Box className="content4">
+              </Box>
+            </Box>
+          </Grid>
+          <Grid xs={6} sm={4} md={2} lg={1} sx={{ padding: '15px' }}>
+            <Box className="card4" id="card4">
+              <Box className="content4">
+              </Box>
+            </Box>
+          </Grid>
+          <Grid xs={6} sm={4} md={2} lg={1} sx={{ padding: '15px' }}>
+            <Box className="card4" id="card4">
+              <Box className="content4">
+              </Box>
+            </Box>
+          </Grid>
+          <Grid xs={6} sm={4} md={2} lg={1} sx={{ padding: '15px' }}>
             <Box className="card4" id="card4">
               <Box className="content4">
               </Box>
@@ -230,67 +226,67 @@ function Animatedicon() {
           </Grid>
         </Grid>
         <Grid container paddingBottom={'45px'} xs={12} className='center'>
-          <Grid xs={1} sx={{ padding: '15px' }}  >
+          <Grid xs={6} sm={4} md={2} lg={1} sx={{ padding: '15px' }}  >
             <Box className="card4" id="card4">
               <Box className="content4">
               </Box>
             </Box>
           </Grid>
-          <Grid xs={1} sx={{ padding: '15px' }}  >
+          <Grid xs={6} sm={4} md={2} lg={1} sx={{ padding: '15px' }}  >
             <Box className="card4" id="card4">
               <Box className="content4">
               </Box>
             </Box>
           </Grid>
-          <Grid xs={1} sx={{ padding: '15px' }}>
+          <Grid xs={6} sm={4} md={2} lg={1} sx={{ padding: '15px' }}>
             <Box className="card4" id="card4">
               <Box className="content4">
               </Box>
             </Box>
           </Grid>
-          <Grid xs={1} sx={{ padding: '15px' }}>
+          <Grid xs={6} sm={4} md={2} lg={1} sx={{ padding: '15px' }}>
             <Box className="card4" id="card4">
               <Box className="content4">
               </Box>
             </Box>
           </Grid>
-          <Grid xs={1} sx={{ padding: '15px' }}>
+          <Grid xs={6} sm={4} md={2} lg={1} sx={{ padding: '15px' }}>
             <Box className="card4" id="card4">
               <Box className="content4">
               </Box>
             </Box>
           </Grid>
-          <Grid xs={1} sx={{ padding: '15px' }}>
+          <Grid xs={6} sm={4} md={2} lg={1} sx={{ padding: '15px' }}>
             <Box className="card4" id="card4">
               <Box className="content4">
               </Box>
             </Box>
           </Grid>
-          <Grid xs={1} sx={{ padding: '15px' }}>
+          <Grid xs={6} sm={4} md={2} lg={1} sx={{ padding: '15px' }}>
             <Box className="card4" id="card4">
               <Box className="content4">
               </Box>
             </Box>
           </Grid>
-          <Grid xs={1} sx={{ padding: '15px' }}>
+          <Grid xs={6} sm={4} md={2} lg={1} sx={{ padding: '15px' }}>
             <Box className="card4" id="card4">
               <Box className="content4">
               </Box>
             </Box>
           </Grid>
-          <Grid xs={1} sx={{ padding: '15px' }}>
+          <Grid xs={6} sm={4} md={2} lg={1} sx={{ padding: '15px' }}>
             <Box className="card4" id="card4">
               <Box className="content4">
               </Box>
             </Box>
           </Grid>
-          <Grid xs={1} sx={{ padding: '15px' }}>
+          <Grid xs={6} sm={4} md={2} lg={1} sx={{ padding: '15px' }}>
             <Box className="card4" id="card4">
               <Box className="content4">
               </Box>
             </Box>
           </Grid>
-          <Grid xs={1} sx={{ padding: '15px' }}>
+          <Grid xs={6} sm={4} md={2} lg={1} sx={{ padding: '15px' }}>
             <Box className="card4" id="card4">
               <Box className="content4">
               </Box>
@@ -309,10 +305,10 @@ function Animatedicon() {
 
         <Grid xs={12}>
           <Box sx={{ padding: '50px 20px 50px 20px' }}>
-            <Box sx={{ fontSize: '72px', textTransform: 'uppercase', fontWeight: '800', color: 'rgb(255 188 6 / 47%)', textAlign: 'center' }}>
+            <Box sx={{ fontSize:{xs:'22px',sm:'50px',md:'72px'}, textTransform: 'uppercase', fontWeight: '800', color: 'rgb(255 188 6 / 47%)', textAlign: 'center' }}>
               How to add animated
             </Box>
-            <Box sx={{ fontSize: '48px', textTransform: 'uppercase', fontWeight: '600', marginTop: '-60px', color: '#272727', textAlign: 'center' }}>
+            <Box sx={{fontSize:{xs:'19px',sm:'50px',md:'72px'}, marginTop:{ xs:'-22px',sm:'-48px',md:'-65px'}, color: '#272727', textAlign: 'center' }}>
               icons to any design
             </Box>
           </Box>
@@ -321,7 +317,7 @@ function Animatedicon() {
       <Container maxWidth="xl">
 
         <Grid container xs={12} sx={{ backgroundColor: '#FAFAFC' }}>
-          <Grid xs={6} >
+          <Grid xs={12} md={6} >
             <Box className='center' paddingTop={'50px'}>
             <img width={'60%'} src="https://cdn.svgator.com/assets/landing-pages/static/create-animated-svg-icons/59510656-0-Microinteractions.svg" alt="" srcset="" />
             </Box>
@@ -389,13 +385,12 @@ function Animatedicon() {
                   </Box>
                 </Box>
                 <Box paddingLeft={'45px'} color={'#888888'}>
-
                   Vector formats allow for easy editing according to your preferences.
                 </Box>
               </Grid>
             </Grid>
           </Grid>
-          <Grid xs={6}>
+          <Grid xs={6} sx={{display:{xs:'none' , md:'block'}}}>
             <img width={'100%'} src={banner} alt="" srcset="" />
           </Grid>
 
@@ -406,108 +401,114 @@ function Animatedicon() {
 
 
       <Box sx={{ padding: '0px 20px 50px 20px' }}>
-        <Box sx={{ fontSize: '72px', textTransform: 'uppercase', fontWeight: '800', color: 'rgb(255 188 6 / 47%)', textAlign: 'center' }}>
+        <Box sx={{ fontSize:{xs:'40px',sm:'62px',md:'72px'}, textTransform: 'uppercase', fontWeight: '800', color: 'rgb(255 188 6 / 47%)', textAlign: 'center' }}>
           Top Icon
         </Box>
-        <Box sx={{ fontSize: '48px', textTransform: 'uppercase', fontWeight: '600', marginTop: '-60px', color: '#272727', textAlign: 'center' }}>
+        <Box sx={{fontSize:{xs:'22px',sm:'46px',md:'72px'}, marginTop:{ xs:'-29px',sm:'-49px',md:'-65px'}, textTransform: 'uppercase', fontWeight: '600', color: '#272727', textAlign: 'center' }}>
           Search
         </Box>
       </Box>
       <Box>
         <Container maxWidth="lg">
           <Grid container>
-            <Grid className='center' xs={2}>
+            <Grid className='center'padding={'20px 10px'} lg={2} md={4} xs={6}>
               Education
             </Grid>
-            <Grid className='center' xs={2}>
+            <Grid className='center'padding={'20px 10px'} lg={2} md={4} xs={6}>
               User
             </Grid>
-            <Grid className='center' xs={2}>
+            <Grid className='center'padding={'20px 10px'} lg={2} md={4} xs={6}>
               Technology
             </Grid>
-            <Grid className='center' xs={2}>
+            <Grid className='center'padding={'20px 10px'} lg={2} md={4} xs={6}>
               People
             </Grid>
-            <Grid className='center' xs={2}>
+            <Grid className='center'padding={'20px 10px'} lg={2} md={4} xs={6}>
               Business
             </Grid>
-            <Grid className='center' xs={2}>
+            <Grid className='center'padding={'20px 10px'} lg={2} md={4} xs={6}>
               Food
             </Grid>
-          </Grid>
-          <Grid container justifyContent={'center'} paddingTop={'30px'}>
-            <Grid className='center' xs={2}>
+          
+          
+            <Grid className='center'padding={'20px 10px'} lg={2} md={4} xs={6}>
               Security
             </Grid>
-            <Grid className='center' xs={2}>
+            <Grid className='center'padding={'20px 10px'} lg={2} md={4} xs={6}>
+              Security
+            </Grid>
+            <Grid className='center'padding={'20px 10px'} lg={2} md={4} xs={6}>
               Money
             </Grid>
-            <Grid className='center' xs={2}>
+            <Grid className='center'padding={'20px 10px'} lg={2} md={4} xs={6}>
               Computer
             </Grid>
-            <Grid className='center' xs={2}>
+            <Grid className='center'padding={'20px 10px'} lg={2} md={4} xs={6}>
               Marketing
             </Grid>
-            <Grid className='center' xs={2}>
+            <Grid className='center'padding={'20px 10px'} lg={2} md={4} xs={6}>
               Document
             </Grid>
 
-          </Grid>
-          <Grid container paddingTop={'30px'}>
-            <Grid className='center' xs={2}>
+          
+          
+            <Grid className='center'padding={'20px 10px'} lg={2} md={4} xs={6}>
               Man
             </Grid>
-            <Grid className='center' xs={2}>
+            <Grid className='center'padding={'20px 10px'} lg={2} md={4} xs={6}>
               Travel
             </Grid>
-            <Grid className='center' xs={2}>
+            <Grid className='center'padding={'20px 10px'} lg={2} md={4} xs={6}>
               Heart
             </Grid>
-            <Grid className='center' xs={2}>
+            <Grid className='center'padding={'20px 10px'} lg={2} md={4} xs={6}>
               Message
             </Grid>
-            <Grid className='center' xs={2}>
+            <Grid className='center'padding={'20px 10px'} lg={2} md={4} xs={6}>
               Building
             </Grid>
-            <Grid className='center' xs={2}>
+            <Grid className='center'padding={'20px 10px'} lg={2} md={4} xs={6}>
               Time
             </Grid>
-          </Grid>
-          <Grid container justifyContent={'center'} paddingTop={'30px'}>
-            <Grid className='center' xs={2}>
+          
+          
+            <Grid className='center'padding={'20px 10px'} lg={2} md={4} xs={6}>
               Arrow
             </Grid>
-            <Grid className='center' xs={2}>
+            <Grid className='center'padding={'20px 10px'} lg={2} md={4} xs={6}>
+              Arrow
+            </Grid>
+            <Grid className='center'padding={'20px 10px'} lg={2} md={4} xs={6}>
               Calendar
             </Grid>
-            <Grid className='center' xs={2}>
+            <Grid className='center'padding={'20px 10px'} lg={2} md={4} xs={6}>
               Hand
             </Grid>
-            <Grid className='center' xs={2}>
+            <Grid className='center'padding={'20px 10px'} lg={2} md={4} xs={6}>
               Finance
             </Grid>
-            <Grid className='center' xs={2}>
+            <Grid className='center'padding={'20px 10px'} lg={2} md={4} xs={6}>
               Home
             </Grid>
 
-          </Grid>
-          <Grid container paddingTop={'30px'}>
-            <Grid className='center' xs={2}>
+         
+          
+            <Grid className='center'padding={'20px 10px'} lg={2} md={4} xs={6}>
               House
             </Grid>
-            <Grid className='center' xs={2}>
+            <Grid className='center'padding={'20px 10px'} lg={2} md={4} xs={6}>
               Music
             </Grid>
-            <Grid className='center' xs={2}>
+            <Grid className='center'padding={'20px 10px'} lg={2} md={4} xs={6}>
               Chat
             </Grid>
-            <Grid className='center' xs={2}>
+            <Grid className='center'padding={'20px 10px'} lg={2} md={4} xs={6}>
               Location
             </Grid>
-            <Grid className='center' xs={2}>
+            <Grid className='center'padding={'20px 10px'} lg={2} md={4} xs={6}>
               Data
             </Grid>
-            <Grid className='center' xs={2}>
+            <Grid className='center'padding={'20px 10px'} lg={2} md={4} xs={6}>
               Cloud
             </Grid>
           </Grid>

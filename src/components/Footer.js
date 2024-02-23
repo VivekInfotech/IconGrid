@@ -11,7 +11,6 @@ const pages = [
     { name: 'Home', path: '/' },
     { name: 'Authors', path: '/authors' },
     { name: 'Icons', path: '/icons' },
-
     { name: 'Interface icons', path: '/interface-icons' },
     { name: 'Animated icons', path: '/animated-icons' },
 ];
@@ -20,7 +19,6 @@ const Help = [
     { name: 'Support', path: '' },
     { name: 'FAQs', path: '' },
     { name: 'Icon styles', path: '' },
-
     { name: 'IconGrid collections', path: '' },
     { name: 'Follow', path: '' },
 ];
@@ -102,7 +100,7 @@ function Footer() {
                                     Company
                                 </Box>
                                 <Box sx={{ flexGrow: 1, display: 'flex', flexDirection: 'column', justifyContent: 'flex-start' }}>
-                                    {Help.map((page, i) => (
+                                    {Company.map((page, i) => (
                                         <Button
                                             key={i}
                                             onClick={() => handlePageClick(page.path)}

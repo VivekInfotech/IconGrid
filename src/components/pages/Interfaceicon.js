@@ -3,7 +3,6 @@ import { Box } from '@mui/material'
 import Grid from '@mui/material/Grid';
 import Container from '@mui/material/Container';
 import { FaAccusoft,FaAmbulance } from "react-icons/fa";
-import backgroundImg from './app-preview-dark.jpg'
 import { Link } from 'react-router-dom';
 
 import camera from './brands/camerainterface.png'
@@ -51,182 +50,182 @@ function Interfaceicon() {
           <Grid xs={12} container >
             
             <Grid xs={6} sm={4} md={2}>
-              <div class="card3 wallet">
-                <div class="overlay"></div>
-                <div class="circle" >
+              <Link to="/most-downloads">
+              <Box class="card3 wallet">
+                <Box class="overlay"></Box>
+                <Box class="circle" >
                   <FaAccusoft fontSize={'60px'}/>
-                </div>
-
-              </div>
+                </Box>
+              </Box></Link>
 
             </Grid>
             <Grid xs={6} sm={4} md={2}>
-              <div class="card3 wallet">
-                <div class="overlay"></div>
-                <div class="circle">
+              <Box class="card3 wallet">
+                <Box class="overlay"></Box>
+                <Box class="circle">
                 <FaAmbulance fontSize={'60px'} />
-                </div>
+                </Box>
 
-              </div>
+              </Box>
             </Grid>
             <Grid xs={6} sm={4} md={2}>
-              <div class="card3 wallet">
-                <div class="overlay"></div>
-                <div class="circle">
+              <Box class="card3 wallet">
+                <Box class="overlay"></Box>
+                <Box class="circle">
 
-                </div>
+                </Box>
 
-              </div>
-
-            </Grid>
-            <Grid xs={6} sm={4} md={2}>
-              <div class="card3 wallet">
-                <div class="overlay"></div>
-                <div class="circle">
-
-                </div>
-
-              </div>
+              </Box>
 
             </Grid>
             <Grid xs={6} sm={4} md={2}>
-              <div class="card3 wallet">
-                <div class="overlay"></div>
-                <div class="circle">
+              <Box class="card3 wallet">
+                <Box class="overlay"></Box>
+                <Box class="circle">
 
-                </div>
+                </Box>
 
-              </div>
-
-            </Grid>
-            <Grid xs={6} sm={4} md={2}>
-              <div class="card3 wallet">
-                <div class="overlay"></div>
-                <div class="circle">
-
-                </div>
-
-              </div>
+              </Box>
 
             </Grid>
             <Grid xs={6} sm={4} md={2}>
-              <div class="card3 wallet">
-                <div class="overlay"></div>
-                <div class="circle">
+              <Box class="card3 wallet">
+                <Box class="overlay"></Box>
+                <Box class="circle">
 
-                </div>
+                </Box>
 
-              </div>
-
-            </Grid>
-            <Grid xs={6} sm={4} md={2}>
-              <div class="card3 wallet">
-                <div class="overlay"></div>
-                <div class="circle">
-
-                </div>
-
-              </div>
+              </Box>
 
             </Grid>
             <Grid xs={6} sm={4} md={2}>
-              <div class="card3 wallet">
-                <div class="overlay"></div>
-                <div class="circle">
+              <Box class="card3 wallet">
+                <Box class="overlay"></Box>
+                <Box class="circle">
 
-                </div>
+                </Box>
 
-              </div>
-
-            </Grid>
-            <Grid xs={6} sm={4} md={2}>
-              <div class="card3 wallet">
-                <div class="overlay"></div>
-                <div class="circle">
-
-                </div>
-
-              </div>
+              </Box>
 
             </Grid>
             <Grid xs={6} sm={4} md={2}>
-              <div class="card3 wallet">
-                <div class="overlay"></div>
-                <div class="circle">
+              <Box class="card3 wallet">
+                <Box class="overlay"></Box>
+                <Box class="circle">
 
-                </div>
+                </Box>
 
-              </div>
-
-            </Grid>
-            <Grid xs={6} sm={4} md={2}>
-              <div class="card3 wallet">
-                <div class="overlay"></div>
-                <div class="circle">
-
-                </div>
-
-              </div>
+              </Box>
 
             </Grid>
             <Grid xs={6} sm={4} md={2}>
-              <div class="card3 wallet">
-                <div class="overlay"></div>
-                <div class="circle">
+              <Box class="card3 wallet">
+                <Box class="overlay"></Box>
+                <Box class="circle">
 
-                </div>
+                </Box>
 
-              </div>
-
-            </Grid>
-            <Grid xs={6} sm={4} md={2}>
-              <div class="card3 wallet">
-                <div class="overlay"></div>
-                <div class="circle">
-
-                </div>
-
-              </div>
+              </Box>
 
             </Grid>
             <Grid xs={6} sm={4} md={2}>
-              <div class="card3 wallet">
-                <div class="overlay"></div>
-                <div class="circle">
+              <Box class="card3 wallet">
+                <Box class="overlay"></Box>
+                <Box class="circle">
 
-                </div>
+                </Box>
 
-              </div>
-
-            </Grid>
-            <Grid xs={6} sm={4} md={2}>
-              <div class="card3 wallet">
-                <div class="overlay"></div>
-                <div class="circle">
-
-                </div>
-
-              </div>
+              </Box>
 
             </Grid>
             <Grid xs={6} sm={4} md={2}>
-              <div class="card3 wallet">
-                <div class="overlay"></div>
-                <div class="circle">
+              <Box class="card3 wallet">
+                <Box class="overlay"></Box>
+                <Box class="circle">
 
-                </div>
+                </Box>
 
-              </div>
+              </Box>
 
             </Grid>
             <Grid xs={6} sm={4} md={2}>
-              <div class="card3 wallet">
-                <div class="overlay"></div>
-                <div class="circle">
+              <Box class="card3 wallet">
+                <Box class="overlay"></Box>
+                <Box class="circle">
 
-                </div>
+                </Box>
 
-              </div>
+              </Box>
+
+            </Grid>
+            <Grid xs={6} sm={4} md={2}>
+              <Box class="card3 wallet">
+                <Box class="overlay"></Box>
+                <Box class="circle">
+
+                </Box>
+
+              </Box>
+
+            </Grid>
+            <Grid xs={6} sm={4} md={2}>
+              <Box class="card3 wallet">
+                <Box class="overlay"></Box>
+                <Box class="circle">
+
+                </Box>
+
+              </Box>
+
+            </Grid>
+            <Grid xs={6} sm={4} md={2}>
+              <Box class="card3 wallet">
+                <Box class="overlay"></Box>
+                <Box class="circle">
+
+                </Box>
+
+              </Box>
+
+            </Grid>
+            <Grid xs={6} sm={4} md={2}>
+              <Box class="card3 wallet">
+                <Box class="overlay"></Box>
+                <Box class="circle">
+
+                </Box>
+
+              </Box>
+
+            </Grid>
+            <Grid xs={6} sm={4} md={2}>
+              <Box class="card3 wallet">
+                <Box class="overlay"></Box>
+                <Box class="circle">
+
+                </Box>
+
+              </Box>
+
+            </Grid>
+            <Grid xs={6} sm={4} md={2}>
+              <Box class="card3 wallet">
+                <Box class="overlay"></Box>
+                <Box class="circle">
+
+                </Box>
+
+              </Box>
+
+            </Grid>
+            <Grid xs={6} sm={4} md={2}>
+              <Box class="card3 wallet">
+                <Box class="overlay"></Box>
+                <Box class="circle">
+
+                </Box>
+
+              </Box>
 
             </Grid>
             <Grid xs={12}>
@@ -235,6 +234,122 @@ function Interfaceicon() {
                 <Link to="/most-downloads">See All Icon</Link>
               </Box>
             </Box>
+            </Grid>
+          </Grid>
+        </Container>
+      </Box>
+
+      <Box sx={{ padding: '0px 20px 50px 20px' }}>
+        <Box sx={{ fontSize:{xs:'22px',sm:'50px',md:'72px'}, textTransform: 'uppercase', fontWeight: '800', color: 'rgb(255 188 6 / 47%)', textAlign: 'center' }}>
+          Top Icon
+        </Box>
+        <Box sx={{fontSize:{xs:'22px',sm:'50px',md:'72px'}, marginTop:{ xs:'-23px',sm:'-48px',md:'-65px'}, textTransform: 'uppercase', fontWeight: '600', color: '#272727', textAlign: 'center' }}>
+          Search
+        </Box>
+      </Box>
+
+      <Box>
+        <Container maxWidth="lg">
+          <Grid container>
+            <Grid className='center'padding={'20px 10px'} lg={2} md={4} xs={6}>
+              Education
+            </Grid>
+            <Grid className='center'padding={'20px 10px'} lg={2} md={4} xs={6}>
+              User
+            </Grid>
+            <Grid className='center'padding={'20px 10px'} lg={2} md={4} xs={6}>
+              Technology
+            </Grid>
+            <Grid className='center'padding={'20px 10px'} lg={2} md={4} xs={6}>
+              People
+            </Grid>
+            <Grid className='center'padding={'20px 10px'} lg={2} md={4} xs={6}>
+              Business
+            </Grid>
+            <Grid className='center'padding={'20px 10px'} lg={2} md={4} xs={6}>
+              Food
+            </Grid>
+          
+          
+            <Grid className='center'padding={'20px 10px'} lg={2} md={4} xs={6}>
+              Security
+            </Grid>
+            <Grid className='center'padding={'20px 10px'} lg={2} md={4} xs={6}>
+              Security
+            </Grid>
+            <Grid className='center'padding={'20px 10px'} lg={2} md={4} xs={6}>
+              Money
+            </Grid>
+            <Grid className='center'padding={'20px 10px'} lg={2} md={4} xs={6}>
+              Computer
+            </Grid>
+            <Grid className='center'padding={'20px 10px'} lg={2} md={4} xs={6}>
+              Marketing
+            </Grid>
+            <Grid className='center'padding={'20px 10px'} lg={2} md={4} xs={6}>
+              Document
+            </Grid>
+
+          
+          
+            <Grid className='center'padding={'20px 10px'} lg={2} md={4} xs={6}>
+              Man
+            </Grid>
+            <Grid className='center'padding={'20px 10px'} lg={2} md={4} xs={6}>
+              Travel
+            </Grid>
+            <Grid className='center'padding={'20px 10px'} lg={2} md={4} xs={6}>
+              Heart
+            </Grid>
+            <Grid className='center'padding={'20px 10px'} lg={2} md={4} xs={6}>
+              Message
+            </Grid>
+            <Grid className='center'padding={'20px 10px'} lg={2} md={4} xs={6}>
+              Building
+            </Grid>
+            <Grid className='center'padding={'20px 10px'} lg={2} md={4} xs={6}>
+              Time
+            </Grid>
+          
+          
+            <Grid className='center'padding={'20px 10px'} lg={2} md={4} xs={6}>
+              Arrow
+            </Grid>
+            <Grid className='center'padding={'20px 10px'} lg={2} md={4} xs={6}>
+              Arrow
+            </Grid>
+            <Grid className='center'padding={'20px 10px'} lg={2} md={4} xs={6}>
+              Calendar
+            </Grid>
+            <Grid className='center'padding={'20px 10px'} lg={2} md={4} xs={6}>
+              Hand
+            </Grid>
+            <Grid className='center'padding={'20px 10px'} lg={2} md={4} xs={6}>
+              Finance
+            </Grid>
+            <Grid className='center'padding={'20px 10px'} lg={2} md={4} xs={6}>
+              Home
+            </Grid>
+
+         
+          
+            <Grid className='center'padding={'20px 10px'} lg={2} md={4} xs={6}>
+              House
+            </Grid>
+            <Grid className='center'padding={'20px 10px'} lg={2} md={4} xs={6}>
+              Music
+            </Grid>
+            <Grid className='center'padding={'20px 10px'} lg={2} md={4} xs={6}>
+              Chat
+            </Grid>
+            <Grid className='center'padding={'20px 10px'} lg={2} md={4} xs={6}>
+              Location
+            </Grid>
+            <Grid className='center'padding={'20px 10px'} lg={2} md={4} xs={6}>
+              Data
+            </Grid>
+            <Grid className='center'padding={'20px 10px'} lg={2} md={4} xs={6}>
+              Cloud
             </Grid>
           </Grid>
         </Container>

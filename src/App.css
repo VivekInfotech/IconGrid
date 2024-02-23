@@ -3,10 +3,11 @@
     text-decoration: none !important;
 }
 
-.css-10hburv-MuiTypography-root{
+.css-10hburv-MuiTypography-root {
     font-family: "Poppins", sans-serif !important;
 
 }
+
 .blend0,
 .css-u0quxs-MuiStack-root,
 .css-v4cz06-MuiStack-root,
@@ -79,7 +80,11 @@
     justify-content: center !important;
 }
 
-.c-white,.css-10hburv-MuiTypography-root,.css-ioz11f-MuiListItemIcon-root,.css-1q33hnv-MuiListItemIcon-root ,.css-1e7e7bc-MuiListItemIcon-root {
+.c-white,
+.css-10hburv-MuiTypography-root,
+.css-ioz11f-MuiListItemIcon-root,
+.css-1q33hnv-MuiListItemIcon-root,
+.css-1e7e7bc-MuiListItemIcon-root {
     color: #fff !important;
 }
 
@@ -127,7 +132,7 @@
     }
 } */
 
-.css-12i7wg6-MuiPaper-root-MuiDrawer-paper{
+.css-12i7wg6-MuiPaper-root-MuiDrawer-paper,.css-18sg6k4-MuiPaper-root-MuiDrawer-paper {
     z-index: 98 !important;
 }
 
@@ -223,9 +228,10 @@
 .css-1nxmd3h-MuiListItem-root:hover {
     background-color: #ffbc06 !important;
 }
-.css-uxa1ks-MuiListItem-root:hover .css-10hburv-MuiTypography-root{
+
+.css-uxa1ks-MuiListItem-root:hover .css-10hburv-MuiTypography-root {
     color: #272727 !important;
-    
+
 }
 
 .css-7w6khc {
@@ -241,9 +247,11 @@
     background-image: url(./components/img/interfacebanner.jpg);
     width: 100%;
 }
-.css-15ya1lc{
+
+.css-15ya1lc {
     background: rgb(39 39 39 / 72%) !important;
-}  
+}
+
 .m-0 {
     margin: 0 !important;
 }
@@ -353,24 +361,9 @@
     display: flex;
     gap: 10px;
 }
-.W-100{
+
+.W-100 {
     width: 100%;
-}
-.card1 {
-    background-color: #fff;
-    width: 16.67%;
-    flex: 1;
-    border-radius: 16px;
-    transition: all 0.3s ease;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    font-weight: 500;
-}
-.card1:hover {
-    flex: 2;
-    background-color: #b8b8b8;
 }
 
 .wallet {
@@ -381,7 +374,7 @@
 }
 
 .card3 {
-   
+
     overflow: hidden;
     display: flex;
     flex-direction: column;
@@ -452,10 +445,13 @@
     transition: transform 0.3s ease-out;
 }
 
-.css-1hsz34s-MuiDrawer-docked .MuiDrawer-paper,.css-2dum1v-MuiDrawer-docked .MuiDrawer-paper{
+.css-1hsz34s-MuiDrawer-docked .MuiDrawer-paper,
+.css-2dum1v-MuiDrawer-docked .MuiDrawer-paper {
     background-color: #272727 !important;
 }
-.css-1k7rjh0-MuiButtonBase-root-MuiIconButton-root,.css-1qqpd8d-MuiButtonBase-root-MuiIconButton-root{
+
+.css-1k7rjh0-MuiButtonBase-root-MuiIconButton-root,
+.css-1qqpd8d-MuiButtonBase-root-MuiIconButton-root {
     margin: 0 !important;
     padding: 8px 20px !important;
 }
@@ -473,8 +469,9 @@
     cursor: pointer;
     overflow: hidden;
     position: relative;
-  }
-  .card4 .content4 {
+}
+
+.card4 .content4 {
     border-radius: 5px;
     background: #171717;
     width: 126px;
@@ -485,9 +482,9 @@
     display: flex;
     justify-content: center;
     align-items: center;
-  }
-  
-  .content4::before {
+}
+
+.content4::before {
     opacity: 0;
     transition: opacity 300ms;
     content: " ";
@@ -497,21 +494,30 @@
     height: 50px;
     position: absolute;
     filter: blur(50px);
-  }
-  
-  .card4:hover .content4::before {
+}
+
+.card4:hover .content4::before {
     opacity: 1;
-  }
+}
 
 
-  @keyframes rotation_9018 {
+@keyframes rotation_9018 {
     0% {
-      transform: rotate(0deg);
+        transform: rotate(0deg);
     }
-  
-    100% {
-      transform: rotate(360deg);
-    }
-  }
 
-  
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.css-1mj5d47-MuiGrid-root {
+    justify-content: center !important;
+    display: flex !important;
+}
+.css-m9glnp-MuiPaper-root-MuiDialog-paper {
+    width: 86% !important;
+}
+.css-zw3mfo-MuiModal-root-MuiDialog-root{
+    top: 15px !important;
+}

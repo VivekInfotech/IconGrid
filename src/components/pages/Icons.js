@@ -1,21 +1,11 @@
 import { Box } from '@mui/material'
 import { Link } from 'react-router-dom';
-
 import React from 'react'
 import Container from '@mui/material/Container';
 import Grid from '@mui/material/Grid';
 import backgroundImg from './app-preview-dark.jpg'
 import purple from './purple-big-ball.png'
 import banner from './coronavirus-5.png'
-import insta from './brands/instagram.png'
-import facebook from './brands/facebook.png'
-import google from './brands/google.png'
-import linkdin from './brands/linkedin.png'
-import meta from './brands/meta.png'
-import whatsapp from './brands/whatsapp.png'
-import youtube from './brands/youtube.png'
-import twitter from './brands/twitter.png'
-import style from './style.webp'
 import Cardicon from './Cardicon';
 function Icons() {
 
@@ -23,25 +13,25 @@ function Icons() {
     <Box sx={{ paddingBottom: '150px' }}>
       <Grid container paddingTop={'18px'}>
         <Grid xs={12} >
-          <Box className="background" sx={{flexWrap:{xs:'wrap',md:'nowrap'},backgroundColor: '#00000021', position: 'relative', alignItems: 'center', display: 'flex' }}>
-            <Grid xs={6} sx={{ padding: '20px' }}>
+          <Box className="background" sx={{flexDirection:{xs:'column' ,md:'row'},backgroundColor: '#00000021',position:'relative', alignItems: 'center', display: 'flex' }}>
+            <Grid md={6} xs={12} sx={{ padding: '20px' ,maxWidth:'100%'}}>
 
-              <Box sx={{ fontSize: '32px', fontWeight: '700', padding: '50px 0px 0px 20px', color: '#272727' }}>
+              <Box sx={{ fontSize: {xs:'15px',sm:'28px',md:'27px',lg:'32px'}, fontWeight: '700', padding: {xs:'50px 0px 0px 0px',sm:'50px 0px 0px 20px'}, color: '#272727' }}>
                 Explore a diverse collection of over 14.2 million PNG icons available for free access.
               </Box>
-              <Box sx={{ padding: '10px 0px 0px 20px' }}>
+              <Box sx={{ fontSize: {xs:'10px',sm:'18px',md:'19px',lg:'21px'},padding: {xs:'10px 0px 0px 0px',sm:'10px 0px 0px 20px' }}}>
                 Discover the extensive repository of vector icons for download, encompassing SVG, EPS, PSD, and BASE 64 formats, making it the most comprehensive database available.
               </Box>
-              <Box sx={{ padding: '30px 0px 50px 20px' }}>
-                <Box sx={{ border: '1px solid #FFBC06', backgroundColor: '#FFBC06', borderRadius: '10px', padding: '10px 15px', display: 'inline-block' }}>
+              <Box sx={{ padding: {xs :'10px 0px 0px 0px',sm:'10px 0px 0px 20px',lg:'30px 0px 50px 20px'} }}>
+                <Box sx={{ fontSize: {xs:'12px',sm:'18px',md:'13px',lg:'21px'}, border: '1px solid #FFBC06', backgroundColor: '#FFBC06', borderRadius: '10px', padding: '10px 15px', display: 'inline-block' }}>
                   See Trending Icon
                 </Box>
               </Box>
-              <Box sx={{ position: 'absolute', bottom: -8 }} >
+              <Box sx={{ display:{xs:'none',md:'flex'}, position: 'absolute', bottom: -8 }} >
                 <img src={purple} alt="" srcset="" />
               </Box>
             </Grid>
-            <Grid xs={6} sx={{ display: 'flex', alignItems: 'c' }}>
+            <Grid md={6} xs={12}  sx={{ display: 'flex', alignItems: 'center' }}>
 
               <img src={backgroundImg} width={'100%'} alt="" srcset="" />
 
@@ -147,8 +137,8 @@ function Icons() {
         </Box>
       </Box>
       <Box sx={{ backgroundColor: '#272727', padding: '0px 30px' }}>
-        <Grid container sx={{ padding: '70px 0px' }}>
-          <Grid sm={4} md={2}>
+        <Grid container sx={{ padding: '70px 0px', justifyContent:'center' }}>
+          <Grid className='center' sm={4} lg={2} padding={'10px 0px'}>
             <Box class="card">
               <Box class="card-img"></Box>
               <Box class="card-info">
@@ -157,7 +147,7 @@ function Icons() {
               </Box>
             </Box>
           </Grid>
-          <Grid sm={4} md={2}>
+          <Grid className='center' sm={4} lg={2} padding={'10px 0px'}>
             <Box class="card">
               <Box class="card-img"></Box>
               <Box class="card-info">
@@ -166,7 +156,7 @@ function Icons() {
               </Box>
             </Box>
           </Grid>
-          <Grid sm={4} md={2}>
+          <Grid className='center' sm={4} lg={2} padding={'10px 0px'}>
             <Box class="card">
               <Box class="card-img"></Box>
               <Box class="card-info">
@@ -175,7 +165,7 @@ function Icons() {
               </Box>
             </Box>
           </Grid>
-          <Grid sm={4} md={2}>
+          <Grid className='center' sm={4} lg={2} padding={'10px 0px'}>
             <Box class="card">
               <Box class="card-img"></Box>
               <Box class="card-info">
@@ -185,7 +175,7 @@ function Icons() {
               </Box>
             </Box>
           </Grid>
-          <Grid sm={4} md={2}>
+          <Grid className='center' sm={4} lg={2} padding={'10px 0px'}>
             <Box class="card">
               <Box class="card-img"></Box>
               <Box class="card-info">
@@ -194,7 +184,7 @@ function Icons() {
               </Box>
             </Box>
           </Grid>
-          <Grid sm={4} md={2}>
+          <Grid className='center' sm={4} lg={2}  padding={'10px 0px'}>
             <Box class="card">
               <Box class="card-img"></Box>
               <Box class="card-info">
@@ -204,17 +194,6 @@ function Icons() {
             </Box>
           </Grid>
         </Grid>
-      </Box>
-
-      <Box sx={{ padding: '70px 30px' }}>
-        <Box class="container w-100">
-          <Box class="card1"><img src={insta} alt="" srcset="" />Instagram</Box>
-          <Box class="card1"><img src={google} alt="" srcset="" />Google</Box>
-          <Box class="card1"><img src={facebook} alt="" srcset="" />Facebook</Box>
-          <Box class="card1"><img src={youtube} alt="" srcset="" />Youtube</Box>
-          <Box class="card1"><img src={whatsapp} alt="" srcset="" />WhatsApp</Box>
-          <Box class="card1"><img src={linkdin} alt="" srcset="" />Linkdin</Box>
-        </Box>
       </Box>
 
       <Box sx={{ padding: '0px 20px 50px 20px' }}>
@@ -229,98 +208,104 @@ function Icons() {
       <Box>
         <Container maxWidth="lg">
           <Grid container>
-            <Grid className='center' lg={2} md={4} xs={6}>
+            <Grid className='center'padding={'20px 10px'} lg={2} md={4} xs={6}>
               Education
             </Grid>
-            <Grid className='center' lg={2} md={4} xs={6}>
+            <Grid className='center'padding={'20px 10px'} lg={2} md={4} xs={6}>
               User
             </Grid>
-            <Grid className='center' lg={2} md={4} xs={6}>
+            <Grid className='center'padding={'20px 10px'} lg={2} md={4} xs={6}>
               Technology
             </Grid>
-            <Grid className='center' lg={2} md={4} xs={6}>
+            <Grid className='center'padding={'20px 10px'} lg={2} md={4} xs={6}>
               People
             </Grid>
-            <Grid className='center' lg={2} md={4} xs={6}>
+            <Grid className='center'padding={'20px 10px'} lg={2} md={4} xs={6}>
               Business
             </Grid>
-            <Grid className='center' lg={2} md={4} xs={6}>
+            <Grid className='center'padding={'20px 10px'} lg={2} md={4} xs={6}>
               Food
             </Grid>
-          </Grid>
-          <Grid container justifyContent={'center'} paddingTop={'30px'}>
-            <Grid className='center' lg={2} md={4} xs={6}>
+          
+          
+            <Grid className='center'padding={'20px 10px'} lg={2} md={4} xs={6}>
               Security
             </Grid>
-            <Grid className='center' lg={2} md={4} xs={6}>
+            <Grid className='center'padding={'20px 10px'} lg={2} md={4} xs={6}>
+              Security
+            </Grid>
+            <Grid className='center'padding={'20px 10px'} lg={2} md={4} xs={6}>
               Money
             </Grid>
-            <Grid className='center' lg={2} md={4} xs={6}>
+            <Grid className='center'padding={'20px 10px'} lg={2} md={4} xs={6}>
               Computer
             </Grid>
-            <Grid className='center' lg={2} md={4} xs={6}>
+            <Grid className='center'padding={'20px 10px'} lg={2} md={4} xs={6}>
               Marketing
             </Grid>
-            <Grid className='center' lg={2} md={4} xs={6}>
+            <Grid className='center'padding={'20px 10px'} lg={2} md={4} xs={6}>
               Document
             </Grid>
 
-          </Grid>
-          <Grid container paddingTop={'30px'}>
-            <Grid className='center' lg={2} md={4} xs={6}>
+          
+          
+            <Grid className='center'padding={'20px 10px'} lg={2} md={4} xs={6}>
               Man
             </Grid>
-            <Grid className='center' lg={2} md={4} xs={6}>
+            <Grid className='center'padding={'20px 10px'} lg={2} md={4} xs={6}>
               Travel
             </Grid>
-            <Grid className='center' lg={2} md={4} xs={6}>
+            <Grid className='center'padding={'20px 10px'} lg={2} md={4} xs={6}>
               Heart
             </Grid>
-            <Grid className='center' lg={2} md={4} xs={6}>
+            <Grid className='center'padding={'20px 10px'} lg={2} md={4} xs={6}>
               Message
             </Grid>
-            <Grid className='center' lg={2} md={4} xs={6}>
+            <Grid className='center'padding={'20px 10px'} lg={2} md={4} xs={6}>
               Building
             </Grid>
-            <Grid className='center' lg={2} md={4} xs={6}>
+            <Grid className='center'padding={'20px 10px'} lg={2} md={4} xs={6}>
               Time
             </Grid>
-          </Grid>
-          <Grid container justifyContent={'center'} paddingTop={'30px'}>
-            <Grid className='center' lg={2} md={4} xs={6}>
+          
+          
+            <Grid className='center'padding={'20px 10px'} lg={2} md={4} xs={6}>
               Arrow
             </Grid>
-            <Grid className='center' lg={2} md={4} xs={6}>
+            <Grid className='center'padding={'20px 10px'} lg={2} md={4} xs={6}>
+              Arrow
+            </Grid>
+            <Grid className='center'padding={'20px 10px'} lg={2} md={4} xs={6}>
               Calendar
             </Grid>
-            <Grid className='center' lg={2} md={4} xs={6}>
+            <Grid className='center'padding={'20px 10px'} lg={2} md={4} xs={6}>
               Hand
             </Grid>
-            <Grid className='center' lg={2} md={4} xs={6}>
+            <Grid className='center'padding={'20px 10px'} lg={2} md={4} xs={6}>
               Finance
             </Grid>
-            <Grid className='center' lg={2} md={4} xs={6}>
+            <Grid className='center'padding={'20px 10px'} lg={2} md={4} xs={6}>
               Home
             </Grid>
 
-          </Grid>
-          <Grid container paddingTop={'30px'}>
-            <Grid className='center' lg={2} md={4} xs={6}>
+         
+          
+            <Grid className='center'padding={'20px 10px'} lg={2} md={4} xs={6}>
               House
             </Grid>
-            <Grid className='center' lg={2} md={4} xs={6}>
+            <Grid className='center'padding={'20px 10px'} lg={2} md={4} xs={6}>
               Music
             </Grid>
-            <Grid className='center' lg={2} md={4} xs={6}>
+            <Grid className='center'padding={'20px 10px'} lg={2} md={4} xs={6}>
               Chat
             </Grid>
-            <Grid className='center' lg={2} md={4} xs={6}>
+            <Grid className='center'padding={'20px 10px'} lg={2} md={4} xs={6}>
               Location
             </Grid>
-            <Grid className='center' lg={2} md={4} xs={6}>
+            <Grid className='center'padding={'20px 10px'} lg={2} md={4} xs={6}>
               Data
             </Grid>
-            <Grid className='center' lg={2} md={4} xs={6}>
+            <Grid className='center'padding={'20px 10px'} lg={2} md={4} xs={6}>
               Cloud
             </Grid>
           </Grid>
