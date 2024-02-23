@@ -408,10 +408,6 @@ const Topicon = () => {
                 <Topprops image={house} tag="jdqwdfuh" onClick={handleOpenDialog} />
                 
               </Grid>
-              <Grid lg={2} md={4} sx={{ display: 'flex', justifyContent: 'center' }}  >
-                <Topprops image={house} tag="jdqwdfuh" onClick={handleOpenDialog} />
-                
-              </Grid>
 
               <FullScreenDialog open={isDialogOpen} onClose={handleCloseDialog} />
                   
