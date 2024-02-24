@@ -17,6 +17,7 @@ import iconlogo from './img/Vector.png'
 import interfaceicon from './img/interfaceicon.png'
 import animatedicon from './img/animated.png'
 import camera from './img/cameraanimation.gif'
+import bee1 from './img/bee_1 1.png'
 import {
     BrowserRouter as Router,
     Switch,
@@ -329,6 +330,30 @@ function Mainbody() {
                                 </Box>
                                 <Box sx={{paddingTop:'60px' }}>
                                     <Box sx={{borderRadius:'7px',display:'inline-block' , padding:'5px 20px',color:'#fff' ,backgroundColor:'#703DFF'}}>More..!</Box>
+                                </Box>
+                            </Grid>
+                        </Grid>
+                    </Container>
+                </Box>
+
+                <Box sx={{ marginTop: '70px',backgroundColor:'#FFE08A' }}>
+                    <Container className='bgIcons' maxWidth="xl" sx={{}}>
+                        <Grid container xs={12}>
+                            <Grid xs={6} padding={'122px 70px 0px 70px'}>
+                                <Box sx={{position:'relative'}}>
+                                    <Box sx={{fontSize:'34px',marginBottom:'17px',fontWeight:'500',display:'inline-block',borderBottom:'3px solid #272727'}}>Our Interface</Box>
+                                    <Box sx={{position:'absolute',top: '-52%',left: '32%'}}><img src={bee1} alt="" srcset="" /></Box>
+                                </Box>
+                                <Box>
+                                    <Grid xs={9}>
+                                Our interface is simplified so that our users can navigate through different pages & icons without any problems. Our interface is user-friendly, featuring a clean design for easy navigation. You can browse categories, search for icons, and preview them in different sizes and formats. It's responsive across devices, ensuring a seamless experience. Simplifying the process, you can quickly find and download icons for your projects, whether you're a designer, developer, or enthusiast.
+                                        
+                                    </Grid>
+                                </Box>
+                            </Grid>
+                            <Grid xs={6} height={'460px'}>
+                                <Box className='Nest'>
+
                                 </Box>
                             </Grid>
                         </Grid>

@@ -34,7 +34,7 @@
     transition: all 0.3s ease-in-out;
 }
 
-.css-46bh2p-MuiCardContent-root {
+.css-46bh2p-MuiCardContent-root,.css-19r6kue-MuiContainer-root {
     padding: 0 !important;
 }
 
@@ -637,4 +637,12 @@
     background-color: #FFBC06;
     color: #fff;
     border-color: #FFBC06;
+}
+.bgIcons{
+    background-image: url(./components/img/beeback.png);
+}
+.Nest{
+    background-image: url(./components/img/nest.png);
+    height: 460px;
+    margin-left: 85px;
 }
