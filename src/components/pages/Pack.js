@@ -17,11 +17,23 @@ import MailIcon from '@mui/icons-material/Mail';
 import { FaAccusoft, FaAmbulance } from "react-icons/fa";
 import Grid from '@mui/material/Grid';
 import { Link } from 'react-router-dom';
-
+import { useState } from 'react';
+import FullScreenDialog from '../FullScreenDialog';
 import Container from '@mui/material/Container';
 const drawerWidth = 450;
 
 export default function Pack() {
+
+    const [isDialogOpen, setDialogOpen] = useState(false);
+
+  const handleOpenDialog = () => {
+    setDialogOpen(true);  
+  };
+
+  const handleCloseDialog = () => {
+    setDialogOpen(false);
+  };
+
     return (
         <Box sx={{ display: 'flex' }}>
             <CssBaseline />
@@ -38,16 +50,17 @@ export default function Pack() {
                     <Container maxWidth="lg">
                         <Grid xs={12} container >
                             <Grid xs={6} sm={4} md={2}>
-                                <Link to="/most-downloads">
+                                <Box onClick={handleOpenDialog}>
                                     <Box class="card3 wallet">
                                         <Box class="overlay"></Box>
                                         <Box class="circle" >
                                             <FaAccusoft fontSize={'60px'} />
                                         </Box>
                                     </Box>
-                                </Link>
+                                </Box>
                             </Grid>
                             <Grid xs={6} sm={4} md={2}>
+                            <Box onClick={handleOpenDialog}>
                                 <Box class="card3 wallet">
                                     <Box class="overlay"></Box>
                                     <Box class="circle">
@@ -55,16 +68,17 @@ export default function Pack() {
                                     </Box>
 
                                 </Box>
+                            </Box>
                             </Grid>
                             <Grid xs={6} sm={4} md={2}>
-                                <Box class="card3 wallet">
-                                    <Box class="overlay"></Box>
-                                    <Box class="circle">
-
+                            <Box onClick={handleOpenDialog}>
+                                    <Box class="card3 wallet">
+                                        <Box class="overlay"></Box>
+                                        <Box class="circle" >
+                                            <FaAccusoft fontSize={'60px'} />
+                                        </Box>
                                     </Box>
-
                                 </Box>
-
                             </Grid>
                             <Grid xs={6} sm={4} md={2}>
                                 <Box class="card3 wallet">
@@ -223,6 +237,7 @@ export default function Pack() {
                                     </Box>
                                 </Box>
                             </Grid>
+                            <FullScreenDialog open={isDialogOpen} onClose={handleCloseDialog} />
                         </Grid>
                     </Container>
                 </Box>
